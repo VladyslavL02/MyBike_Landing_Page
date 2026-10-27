@@ -1,0 +1,10 @@
+.page {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:has(.page__menu:target) {
+    overflow: hidden;
+  }
+}
